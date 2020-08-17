@@ -51,17 +51,17 @@ List Registered Products by Customer --- GET http://localhost:8080/acme/customer
 
 The currently the below list of Customers exists in the System.
 --------------------------------------------------------------
-Cust123
-Cust234
-Cust345
-Cust456
+    Cust123
+    Cust234
+    Cust345
+    Cust456
 
 The List of Products 
 ----------------------
-domain
-hosting
-email
-edomain
-pdomain
+    domain
+    hosting
+    email
+    edomain
+    pdomain
 
 

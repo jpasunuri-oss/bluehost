@@ -19,17 +19,19 @@ Add a Domain  --- POST http://localhost:8080/acme/product/{product}/customer/{cu
 ------------
 
 
-Sample Request http://localhost:8080/acme/product/domain/customer/Cust123
-{
-    "duration": 1,
-    "domainName" : "xyz.com"
-}
+    Sample Request 
+    http://localhost:8080/acme/product/domain/customer/Cust123
+    {
+        "duration": 1,
+        "domainName" : "xyz.com"
+    }
 
 Add a Hosting --- POST http://localhost:8080/acme/product/{product}/customer/{customerId}
 -------------
 
     
-    Sample Request http://localhost:8080/acme/product/hosting/customer/Cust123
+    Sample Request 
+    http://localhost:8080/acme/product/hosting/customer/Cust123
     {
         "duration": 12,
         "domainName" : "xyz.com"
@@ -38,14 +40,14 @@ Add a Hosting --- POST http://localhost:8080/acme/product/{product}/customer/{cu
 List All Registered Products in the system --- GET http://localhost:8080/acme/products
 -------------------------------------------
 
-Sample Request http://localhost:8080/acme/products
+    Sample Request http://localhost:8080/acme/products
 
 
 List Registered Products by Customer --- GET http://localhost:8080/acme/customer/{customerId}/products
 ------------------------------------
 
 
-Sample Request http://localhost:8080/acme/customer/Cust234/products
+    Sample Request http://localhost:8080/acme/customer/Cust234/products
 
 The currently the below list of Customers exists in the System.
 --------------------------------------------------------------

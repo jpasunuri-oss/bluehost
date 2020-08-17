@@ -27,6 +27,7 @@ Sample Request http://localhost:8080/acme/product/domain/customer/Cust123
 
 Add a Hosting --- POST http://localhost:8080/acme/product/{product}/customer/{customerId}
 -------------
+
 Sample Request http://localhost:8080/acme/product/hosting/customer/Cust123
 {
     "duration": 12,
@@ -37,7 +38,7 @@ List All Registered Products in the system --- GET http://localhost:8080/acme/pr
 
 Sample Request http://localhost:8080/acme/products
 
-List Registered Products by Customer --- http://localhost:8080/acme/customer/{customerId}/products
+List Registered Products by Customer --- GET http://localhost:8080/acme/customer/{customerId}/products
 ------------------------------------
 
 Sample Request http://localhost:8080/acme/customer/Cust234/products

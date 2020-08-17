@@ -16,6 +16,8 @@ The application currently supports the following services
 ------------------------------------------------
 
 Add a Domain  --- POST http://localhost:8080/acme/product/{product}/customer/{customerId}
+------------
+
 
 Sample Request http://localhost:8080/acme/product/domain/customer/Cust123
 {
@@ -24,16 +26,19 @@ Sample Request http://localhost:8080/acme/product/domain/customer/Cust123
 }
 
 Add a Hosting --- POST http://localhost:8080/acme/product/{product}/customer/{customerId}
+-------------
 Sample Request http://localhost:8080/acme/product/hosting/customer/Cust123
 {
     "duration": 12,
     "domainName" : "xyz.com"
 }
 List All Registered Products in the system --- GET http://localhost:8080/acme/products
+-------------------------------------------
 
 Sample Request http://localhost:8080/acme/products
 
 List Registered Products by Customer --- http://localhost:8080/acme/customer/{customerId}/products
+------------------------------------
 
 Sample Request http://localhost:8080/acme/customer/Cust234/products
 

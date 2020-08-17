@@ -10,14 +10,19 @@ For further reference, please consider the following sections:
 
 
 Acme Service provides the Customers with Domain Registration, Hosting and Email Services
+-----------------------------------------------------------------------------------------
 
 The application currently supports the following services
 ------------------------------------------------
 
 Add a Domain  --- http://localhost:8080/acme/product/{product}/customer/{customerId}
+
 Add a Hosting --- http://localhost:8080/acme/product/{product}/customer/{customerId}
+
 List All Registered Products in the system --- http://localhost:8080/acme/products
+
 List Registered Products by Customer --- http://localhost:8080/acme/customer/{customerId}/products
+
 
 
 The currently the below list of Customers exists in the System.
